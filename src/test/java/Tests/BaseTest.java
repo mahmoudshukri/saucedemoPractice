@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import java.time.Duration;
+
 public class BaseTest {
     protected WebDriver driver;
     protected BasePage basePage;
@@ -17,6 +19,7 @@ public class BaseTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(url);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(120));
         basePage = new BasePage();
         basePage.setDriver(driver);
         loginPage=new LoginPage();

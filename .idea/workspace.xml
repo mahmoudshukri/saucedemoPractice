@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a98b696-b94a-488a-81bc-ed4f860b7ce8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/ProductsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,16 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.LoginTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTests.testLoginErrorMessage.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.LoginTests.executor": "Run",
+    "TestNG.LoginTests.testLoginErrorMessage.executor": "Run",
+    "TestNG.LoginTests.testLoginSuccessMessage.executor": "Run",
+    "TestNG.ProductsTests.testProductsHeaderIsDisplayed.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.ProductsTests.testProductsHeaderIsDisplayed">
+}]]></component>
+  <component name="RunManager" selected="TestNG.LoginTests">
     <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="saucedemoPractice" />
       <extension name="coverage">
@@ -77,6 +80,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTests.testLoginSuccessMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="saucedemoPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LoginTests" />
+      <option name="METHOD_NAME" value="testLoginSuccessMessage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductsTests.testProductsHeaderIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="saucedemoPractice" />
       <extension name="coverage">
@@ -97,9 +118,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ProductsTests.testProductsHeaderIsDisplayed" />
-        <item itemvalue="TestNG.LoginTests.testLoginErrorMessage" />
         <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.LoginTests.testLoginSuccessMessage" />
+        <item itemvalue="TestNG.LoginTests.testLoginErrorMessage" />
+        <item itemvalue="TestNG.ProductsTests.testProductsHeaderIsDisplayed" />
       </list>
     </recent_temporary>
   </component>
